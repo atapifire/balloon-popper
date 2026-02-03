@@ -5,6 +5,8 @@ plugins {
 group 'net.runelite.client.plugins'
 version '1.0.0'
 
+project.ext.pluginMainClass = 'com.atapifire.balloonpopper.BalloonPopperPlugin'
+
 sourceCompatibility = 11
 
 repositories {

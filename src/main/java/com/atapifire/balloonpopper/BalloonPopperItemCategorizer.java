@@ -1,12 +1,12 @@
-package net.runelite.client.plugins.balloonpopper;
+package com.atapifire.balloonpopper;
 
 import java.util.ArrayList;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;
 import net.runelite.api.ItemComposition;
-import net.runelite.client.plugins.balloonpopper.BalloonLogDatabase.LogCategory;
-import net.runelite.client.plugins.balloonpopper.BalloonLogDatabase.LogSubCategory;
+import com.atapifire.balloonpopper.BalloonLogDatabase.LogCategory;
+import com.atapifire.balloonpopper.BalloonLogDatabase.LogSubCategory;
 import net.runelite.client.game.ItemManager;
 
 /**

@@ -1,4 +1,4 @@
-package net.runelite.client.plugins.balloonpopper.ui;
+package com.atapifire.balloonpopper.ui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -18,13 +18,13 @@ import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.border.EmptyBorder;
 import net.runelite.client.game.ItemManager;
-import net.runelite.client.plugins.balloonpopper.BalloonPopperPlugin;
+import com.atapifire.balloonpopper.BalloonPopperPlugin;
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.ui.PluginPanel;
 import net.runelite.client.util.AsyncBufferedImage;
-import net.runelite.client.plugins.balloonpopper.BalloonLogDatabase;
-import net.runelite.client.plugins.balloonpopper.BalloonLogDatabase.LogCategory;
-import net.runelite.client.plugins.balloonpopper.BalloonLogDatabase.LogSubCategory;
+import com.atapifire.balloonpopper.BalloonLogDatabase;
+import com.atapifire.balloonpopper.BalloonLogDatabase.LogCategory;
+import com.atapifire.balloonpopper.BalloonLogDatabase.LogSubCategory;
 
 public class BalloonPopperPanel extends PluginPanel {
     private final BalloonPopperPlugin plugin;

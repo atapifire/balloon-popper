@@ -1,4 +1,4 @@
-package net.runelite.client.plugins.balloonpopper;
+package com.atapifire.balloonpopper;
 
 import java.awt.Color;
 import java.awt.Dimension;

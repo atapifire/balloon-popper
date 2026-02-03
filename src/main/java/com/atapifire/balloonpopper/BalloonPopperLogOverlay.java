@@ -1,4 +1,4 @@
-package net.runelite.client.plugins.balloonpopper;
+package com.atapifire.balloonpopper;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -19,8 +19,8 @@ import net.runelite.client.ui.overlay.Overlay;
 import net.runelite.client.ui.overlay.OverlayLayer;
 import net.runelite.client.ui.overlay.OverlayPosition;
 import net.runelite.client.util.ImageUtil;
-import net.runelite.client.plugins.balloonpopper.BalloonLogDatabase.LogCategory;
-import net.runelite.client.plugins.balloonpopper.BalloonLogDatabase.LogSubCategory;
+import com.atapifire.balloonpopper.BalloonLogDatabase.LogCategory;
+import com.atapifire.balloonpopper.BalloonLogDatabase.LogSubCategory;
 
 public class BalloonPopperLogOverlay extends Overlay {
     private final Client client;
