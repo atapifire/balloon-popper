@@ -17,10 +17,11 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'net.runelite:api:1.12.16'
-    compileOnly 'net.runelite:client:1.12.16'
-    compileOnly 'org.projectlombok:lombok:1.18.20'
-    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+    compileOnly files('custom-runelite.jar')
+    compileOnly 'net.runelite:api:latest.release'
+    compileOnly 'net.runelite:client:latest.release'
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
 }
 
 tasks.withType(JavaCompile) {
