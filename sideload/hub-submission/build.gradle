@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'net.runelite.client.plugins'
+version '1.0.0'
+
+project.ext.pluginMainClass = 'com.atapifire.balloonpopper.BalloonPopperPlugin'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://repo.runelite.net"
+    }
+}
+
+dependencies {
+    compileOnly 'net.runelite:api:latest.release'
+    compileOnly 'net.runelite:client:latest.release'
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
