@@ -26,11 +26,5 @@ if [ ! -f "$CUSTOM_JAR_PATH" ]; then
     exit 1
 fi
 
-# Launch the client with optimizations and JX session info
-_JAVA_OPTIONS="$JAVA_OPTS" \
-__GL_SYNC_TO_VBLANK=$GL_SYNC_TO_VBLANK \
-__GL_THREADED_OPTIMIZATIONS=$GL_THREADED_OPTIMIZATIONS \
-JX_SESSION_ID="$JX_SESSION_ID" \
-JX_CHARACTER_ID="$JX_CHARACTER_ID" \
-JX_DISPLAY_NAME="$JX_DISPLAY_NAME" \
-java -jar "$CUSTOM_JAR_PATH" --developer-mode "$@"
+# Launch the client
+java -ea -jar "$CUSTOM_JAR_PATH" --developer-mode "$@"

@@ -1,0 +1,26 @@
+# Gradle files
+.gradle/
+build/
+bin/
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+custom-runelite.jar
+runelite.log
+runelite_launch.log
+build_errors.txt
+
+# Large dependency directories (sources)
+runelite-api/
+runelite-client/
+runelite-gradle-plugin/
+runelite-jshell/
+cache/
+
+# Local config
+.env
+launch.sh
