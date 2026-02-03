@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'net.runelite.client.plugins'
+version '1.0.0'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://repo.runelite.net"
+    }
+}
+
+dependencies {
+    compileOnly 'net.runelite:api:1.12.16'
+    compileOnly 'net.runelite:client:1.12.16'
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
