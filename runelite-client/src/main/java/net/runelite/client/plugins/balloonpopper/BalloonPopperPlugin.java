@@ -1,4 +1,4 @@
-package com.atapifire.balloonpopper;
+package net.runelite.client.plugins.balloonpopper;
 
 import javax.swing.SwingUtilities;
 
@@ -29,7 +29,7 @@ import net.runelite.client.input.MouseManager;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
-import com.atapifire.balloonpopper.ui.BalloonPopperPanel;
+import net.runelite.client.plugins.balloonpopper.ui.BalloonPopperPanel;
 import net.runelite.client.ui.NavigationButton;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.overlay.OverlayManager;
